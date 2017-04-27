@@ -45,6 +45,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc-md{
 	padding:50px;
 }
+.bloc-sm{
+	padding:20px 50px;
+}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -94,6 +97,28 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .blocs-hero-btn-dwn:hover{
 	color: rgba(255,255,255,1);
+}
+
+
+/* Group Styles */
+
+.bloc-group{
+	display:flex;
+}
+.bloc-group .bloc{
+	flex: 1;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
 }
 
 
@@ -194,7 +219,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc5 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-5 p{
+#bloc-15 p{
 	font-size: 20.000000953674316px;
 }
 
@@ -384,6 +409,11 @@ button{
 	padding: 3px 20px;
 }
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-xl{
+	font-size:100px!important;
+}
 
 
 /* = Text & Icon Styles
@@ -410,6 +440,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* iFrame */
 
@@ -462,6 +499,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-olive-drab-7{
+	background-color:#313131;
+}
+.bgc-beau-blue{
+	background-color:#C7E4F0;
+}
+.bgc-outer-space{
+	background-color:#47454B;
+}
 /* Text colour styles */
 
 .tc-white{
@@ -473,11 +519,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white-2{
 	color:#FFFFFF!important;
 }
+/* Button colour styles */
+
+.btn-dark-slate-gray{
+	background:#22635D;
+	color:#FFFFFF!important;
+}
+.btn-dark-slate-gray:hover{
+	background:#1b4f4a;
+	color:#FFFFFF!important;
+}
 
 /* Bloc image backgrounds */
 
 .bg-background2{
 	background-image:url("img/background2.jpg");
+}
+.bg-background2{
+	background-image:url('img/background2.jpg');
 }
 
 
